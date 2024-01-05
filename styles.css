@@ -13,12 +13,12 @@ body{
 
 #dealer-cards img{
   width: 100px;
-margin: 2px;
+margin: 10px;
 }
 
 #your-cards img{
   width: 100px;
-  margin: 2px; 
+  margin: 10px; 
 }
 
 #retry{
