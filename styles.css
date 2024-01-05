@@ -1,0 +1,43 @@
+
+
+body{
+  padding: 0;
+  margin-top: 40px;
+  background: rgb(0, 47, 0);
+  background:radial-gradient(circle, rgba(0, 47, 0, 1) 0%, rgba(53, 102, 51, 1) 120%), rgba(105, 158, 102, 1) 100%;
+  align-items: center;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+#dealer-cards img{
+  width: 100px;
+margin: 2px;
+}
+
+#your-cards img{
+  width: 100px;
+  margin: 2px; 
+}
+
+#retry{
+  width: 30px;
+
+}
+
+.btn{
+  font-size: large;
+  font-weight: bold;
+  color: #002f00;
+}
+
+#results{
+  margin-top: 20px;
+  border: 1px solid #fff;
+font-weight: bold;
+}
+
+.col{
+  margin-top: 20px;
+}

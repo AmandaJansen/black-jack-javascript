@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+  <title>Black Jack</title>
+</head>
+
+<body>
+  <div class="col">
+    <h2>Dealer : <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+      <img id="hidden" src="./cards/BACK.png" alt="back card">
+    </div>
+
+  </div>
+  <div class="col">
+    <h2>You : <span id="your-sum"></span></h2>
+    <div id="your-cards"></div>
+  </div>
+
+
+  <div class="col">
+    <button id="hit" class="btn btn-light btn-lg"> <strong>HIT</strong></button>
+    <button id="stand" class="btn btn-light btn-lg"><strong>STAND</strong></button>
+  </div>
+
+  <div>
+    <p id="results"></p>
+  </div>
+  <button class="btn" onclick="retry()"><img id="retry" src="./assets/rotate-right-solid.svg" alt=""> Reload Game</button>
+</body>
+<script src="script.js"></script>
+
+</html>
