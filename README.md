@@ -17,7 +17,6 @@ Este é um simples jogo de Blackjack implementado em HTML, CSS e JavaScript. No 
 * **Tratamento de Áses:** A lógica do jogo considera a possibilidade de reduzir o valor de Áses para evitar ultrapassar 21.
 
 # Como Jogar:
-Acesse a página do jogo (Insira um link para a sua versão de demonstração ao vivo ou hospedada). 
 
 1. Clique em "Reload Game" para iniciar um novo jogo.
 
